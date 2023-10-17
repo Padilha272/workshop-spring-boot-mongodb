@@ -1,12 +1,12 @@
 package com.padilha.workshopmongo.services;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.padilha.workshopmongo.domain.Post;
-import com.padilha.workshopmongo.domain.User;
 import com.padilha.workshopmongo.repository.PostRepository;
 import com.padilha.workshopmongo.services.exception.ObjectNotFoundException;
 
@@ -26,7 +26,9 @@ public class PostService {
 		return user.get();
 	}
 	
-	
+	public List<Post> findByTitle(String text){
+		return repo.findByTitleContainingIgnoringCase(text);
+	}
 	
 	
 	
