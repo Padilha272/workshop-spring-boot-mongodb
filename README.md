@@ -1,6 +1,6 @@
 Projeto
 
-Este projeto representa a implementação de um banco de dados MongoDB com Spring Boot. O objetivo principal deste projeto é demonstrar as principais diferenças entre o paradigma orientado a documentos e o modelo relacional, além de explorar a implementação de operações de CRUD em um banco de dados orientado a documentos.
+Este projeto representa a implementação de um banco de dados MongoDB com Spring Boot. O objetivo principal deste projeto é explorar a implementação de operações de CRUD em um banco de dados orientado a documentos.
 
 Repositório
 
